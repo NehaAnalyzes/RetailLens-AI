@@ -1,12 +1,6 @@
 # 🔍 RetailLens AI
 ### Retail Product Image Quality & Category Classification for E-commerce
 
-![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.0-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.32-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![Accuracy](https://img.shields.io/badge/Val%20Accuracy-85.35%25-34D399?style=flat-square)
-![Classes](https://img.shields.io/badge/Categories-9-A5B4FC?style=flat-square)
-
 ---
 
 ## 📌 Overview
@@ -116,40 +110,6 @@ Three checks with weighted scoring:
 - `Overexposed` — 54 images in ELECTRONICS alone (white background + bright lighting)
 - `Blurry` — 5 images in ELECTRONICS
 
----
-
-## 🚀 Running Locally
-
-### 1. Clone the repo
-```bash
-git clone https://github.com/NehaAnalyzes/RetailLens-AI.git
-cd RetailLens-AI
-```
-
-### 2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Add your model
-Place `efficientnet_b2_ecommerce_best.pth` in the root directory.
-
-### 4. Run the Streamlit app
-```bash
-streamlit run app.py
-```
-
-### 5. Quality checker (standalone)
-```bash
-# Single image
-python image_quality.py --image product.jpg
-
-# Entire folder
-python image_quality.py --folder val/ELECTRONICS
-
-# Full val set
-python image_quality.py --valdir val
-```
 
 ---
 
@@ -196,10 +156,7 @@ Key improvements over baseline:
 
 ---
 
-## 👩‍💻 Author
 
-**Neha** — [@NehaAnalyzes](https://github.com/NehaAnalyzes)
 
----
 
-<p align="center">Built with ❤️ using PyTorch & Streamlit</p>
+
