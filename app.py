@@ -257,7 +257,7 @@ def conf_color(conf):
 # ─────────────────────────────────────────────
 st.markdown("""
 <div class="hero">
-    <div class="hero-badge">🔍 AI-Powered · EfficientNet-B2 · 85.35% Accuracy</div>
+    <div class="hero-badge">🔍 AI-Powered · EfficientNet-B2 · 9 Categories</div>
     <div class="hero-title">RetailLens AI</div>
     <p class="hero-sub">Retail Product Image Quality & Category Classification for E-commerce</p>
 </div>
@@ -266,14 +266,12 @@ st.markdown("""
 # ─────────────────────────────────────────────
 # STATS ROW
 # ─────────────────────────────────────────────
-c1, c2, c3, c4 = st.columns(4)
+c1, c2, c3 = st.columns(3)
 with c1:
-    st.markdown('<div class="stat-box"><div class="stat-num">85.35%</div><div class="stat-label">Val Accuracy</div></div>', unsafe_allow_html=True)
-with c2:
     st.markdown('<div class="stat-box"><div class="stat-num">9</div><div class="stat-label">Categories</div></div>', unsafe_allow_html=True)
-with c3:
+with c2:
     st.markdown('<div class="stat-box"><div class="stat-num">91/100</div><div class="stat-label">Avg Quality Score</div></div>', unsafe_allow_html=True)
-with c4:
+with c3:
     st.markdown('<div class="stat-box"><div class="stat-num">3</div><div class="stat-label">Quality Checks</div></div>', unsafe_allow_html=True)
 
 st.markdown("<br>", unsafe_allow_html=True)
@@ -409,7 +407,7 @@ st.markdown("<br><br>", unsafe_allow_html=True)
 st.markdown("""
 <div style="text-align:center;padding:24px;border-top:1px solid rgba(255,255,255,0.05);">
     <p style="color:#334155;font-size:0.82rem;">
-        RetailLens AI · EfficientNet-B2 · 85.35% Accuracy · 9 Categories<br>
+        RetailLens AI · EfficientNet-B2 · 9 Categories<br>
         Built with PyTorch & Streamlit
     </p>
 </div>
