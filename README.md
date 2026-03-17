@@ -7,7 +7,7 @@ It combines deep learning classification with rule based image quality assessmen
 ---
 ## 🚀 Live Demo
 
-🔗 Streamlit App: https://your-streamlit-link.streamlit.app
+🔗 Streamlit App: https://retaillens-ai-q9hdixgu2kx5wnzu5khx6n.streamlit.app/
 ---
 ## 📌 Overview
 
