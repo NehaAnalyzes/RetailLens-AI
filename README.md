@@ -2,7 +2,7 @@
 AI-Powered Retail Product Image Quality & Category Classification
 
 RetailLens AI is a production-style computer vision pipeline designed to automate product image validation and categorization for e-commerce platforms.  
-It combines deep learning classification with rule-based image quality assessment to improve catalog consistency and user experience.
+It combines deep learning classification with rule based image quality assessment to improve catalog consistency and user experience.
 
 ---
 
@@ -11,7 +11,7 @@ It combines deep learning classification with rule-based image quality assessmen
 RetailLens AI provides two core capabilities:
 
 ### 🏷️ Product Category Classification  
-Classifies product images into **9 e-commerce categories** using a fine-tuned EfficientNet-B2 model.
+Classifies product images into **9 e commerce categories** using a fine-tuned EfficientNet-B2 model.
 
 ### 🔍 Image Quality Assessment  
 Evaluates product images for:
@@ -32,7 +32,7 @@ This project demonstrates real-world **model optimization, imbalance handling, a
 | Feature | Details |
 |--------|--------|
 | Model | EfficientNet-B2 (ImageNet pretrained) |
-| Training Strategy | Progressive fine-tuning + targeted retraining |
+| Training Strategy | Progressive fine tuning + targeted retraining |
 | Final Validation Accuracy | **85.96%** |
 | Categories | 9 retail classes |
 | Quality Checks | Resolution · Blur · Brightness |
@@ -178,13 +178,6 @@ Key performance improvements achieved by:
 
 ---
 
-## 👩‍💻 Author
-
-**Neha Pramod K**  
-MSc Data Analytics & Computational Science  
-
----
-
 ## ⭐ Project Goal
 
 To demonstrate **real-world computer vision engineering skills** including:
@@ -194,6 +187,3 @@ To demonstrate **real-world computer vision engineering skills** including:
 - Performance diagnostics
 - Production deployment
 
-This project was developed as part of a placement challenge.
-
-## 📁 Project Structure
