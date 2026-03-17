@@ -5,7 +5,10 @@ RetailLens AI is a production-style computer vision pipeline designed to automat
 It combines deep learning classification with rule based image quality assessment to improve catalog consistency and user experience.
 
 ---
+## 🚀 Live Demo
 
+🔗 Streamlit App: https://your-streamlit-link.streamlit.app
+---
 ## 📌 Overview
 
 RetailLens AI provides two core capabilities:
